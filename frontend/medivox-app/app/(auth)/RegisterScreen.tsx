@@ -44,7 +44,7 @@ const RegisterScreen = () => {
               marginVertical: Spacing * 3,
             }}
           >
-            Create account
+            Create Account
           </Text>
           <Text
             style={{
@@ -90,7 +90,7 @@ const RegisterScreen = () => {
               fontSize: FontSize.large,
             }}
           >
-            Sign up
+            Sign Up
           </Text>
         </TouchableOpacity>
         <TouchableOpacity

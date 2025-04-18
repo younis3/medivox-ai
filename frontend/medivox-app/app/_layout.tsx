@@ -25,7 +25,7 @@ export default function RootLayout() {
   useEffect(() => {
     if (loaded) {
       SplashScreen.hideAsync();
-      router.replace("/LoginScreen");
+      router.replace("/WelcomeScreen");
     }
   }, [loaded]);
 
@@ -44,43 +44,3 @@ export default function RootLayout() {
     </ThemeProvider>
   );
 }
-
-// import { Redirect, Slot, Stack, useRouter } from "expo-router";
-// import { ThemeProvider } from "@react-navigation/native";
-// import { DarkTheme, DefaultTheme } from "@react-navigation/native";
-// import { StatusBar } from "expo-status-bar";
-// import { useColorScheme } from "react-native";
-// import { useEffect, useState } from "react";
-
-// export default function RootLayout() {
-//   const router = useRouter();
-//   const [isReady, setIsReady] = useState(false);
-//   const isLoggedIn = false; // Replace with real logic
-
-//   useEffect(() => {
-//     // Delay redirect until after mount
-//     if (!isLoggedIn) {
-//       router.replace("/LoginScreen");
-//     }
-//     setIsReady(true);
-//   }, []);
-
-//   if (!isReady) {
-//     // Optional: show splash or loading while redirecting
-//     return null;
-//   }
-
-//   return <Slot />;
-// }
-
-// //   return (
-// //     <ThemeProvider value={colorScheme === "dark" ? DarkTheme : DefaultTheme}>
-// //       <Stack
-// //         screenOptions={{
-// //           headerShown: false,
-// //         }}
-// //       />
-// //       <StatusBar style="auto" />
-// //     </ThemeProvider>
-// //   );
-// // }

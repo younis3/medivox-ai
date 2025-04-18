@@ -10,6 +10,7 @@ const white = "#fff";
 const black = "#000";
 const dark = "#626262";
 const blue = "#1F41BB";
+const green = "#3CB371";
 const gray = "#ECECEC";
 const lightBlue = "#f1f4ff";
 
@@ -25,7 +26,7 @@ export const Colors = {
     darkText: dark,
     text: black,
     background: white,
-    primary: blue,
+    primary: green,
     onPrimary: white,
     active: blue,
     borderWithOpacity: "#1f41bb",
@@ -42,7 +43,7 @@ export const Colors = {
     darkText: dark,
     text: black,
     background: white,
-    primary: blue,
+    primary: green,
     onPrimary: white,
     active: blue,
     borderWithOpacity: "#1f41bb",

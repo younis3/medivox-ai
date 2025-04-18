@@ -54,7 +54,7 @@ const RegisterScreen = () => {
               textAlign: "center",
             }}
           >
-            Create an account so you can explore all the existing jobs
+            Create an account so you can get medical help from your AI assistant
           </Text>
         </View>
         <View

@@ -106,7 +106,7 @@ const LoginScreen = () => {
               fontSize: FontSize.large,
             }}
           >
-            Sign in
+            Sign In
           </Text>
         </TouchableOpacity>
         <TouchableOpacity
